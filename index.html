@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<head>
+    <title>Catch me outside, how 'bout dah</title>
+    <style>
+        video {
+            width: 100%    !important;
+            height: 100%   !important;
+        }
+    </style>
+    <link rel="icon" type="image/png" href="favicon.png" sizes="32x32">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+    <video id="video" autoplay loop>
+        <source src="vid_web.mp4" type="video/mp4">
+        Fuck, dude! Your browser does not support the video tag.
+    </video>
+</body>
+<script>
+    var video = document.getElementById('video');
+    video.addEventListener('click',function(){
+        video.play();
+    },false);
+</script>
